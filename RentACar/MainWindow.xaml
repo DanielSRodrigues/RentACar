@@ -1,0 +1,13 @@
+﻿<Window x:Class="RentACar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Libero Rent a Car" Height="350" Width="413.06">
+    <Grid>
+        <Label Content="Login:" HorizontalAlignment="Left" Height="27" Margin="68,89,0,0" VerticalAlignment="Top" Width="65"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Height="27" Margin="68,121,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox Height="27" Margin="160,89,121,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBox Height="27" Margin="160,121,121,0" TextWrapping="Wrap" InputScope="" VerticalAlignment="Top"  />
+        <Button Content="Entrar" Height="26" Margin="224,153,121,0" VerticalAlignment="Top" Click="Entrar_Click"/>
+
+    </Grid>
+</Window>

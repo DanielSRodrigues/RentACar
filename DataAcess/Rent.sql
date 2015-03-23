@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Rent]
+(
+	[Id] BIGINT NOT NULL PRIMARY KEY, 
+    [CarId] BIGINT NOT NULL
+)
