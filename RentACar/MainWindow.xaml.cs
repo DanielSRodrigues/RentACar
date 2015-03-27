@@ -43,7 +43,7 @@ namespace RentACar
         private bool LoginCheck()
         {
             bool ok = true;
-
+            ok = true;
             return ok;
         }
     }
